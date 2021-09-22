@@ -1,0 +1,7 @@
+This tool is meant to slow down the signal processing abillity of a device and buy my team some extra time.
+The tool uses an ICMP ping flood to jam up network traffic on a target IP.
+Enter the number of threads you would like to run at a time (each thread has 4 ICMP requests)
+Then enter the target IP by each of its octets and it will fire immediatley.
+While it may be tempting to immediatly fire an absurd amount packets, teams then have to deal with this immedeatly.
+By constantly sending out moderate ammounts of traffic, you slow the network down without becoming the main focus.
+Then if you need a big distraction, you can turn the traffic up.
