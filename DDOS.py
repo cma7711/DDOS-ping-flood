@@ -20,7 +20,7 @@ target=target1+"."+target2+"."+target3+"."+target4
 
 #method to send 4 pings to the target ip address
 def attack():
-	os.system("ping -c 4 "+target)
+	os.system("ping -c 10 "+target)
 
 #thread control determining the number of sets of pings going to an address
 for i in range(threads):
